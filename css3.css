@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.start_css3{
+    background: url(./images.jpeg);
+    background-size: cover;
+
+}
+.css3_tutorial{
+    padding-left: 300px;
+    /* margin: 90%; */
+    height: 2380px;
+    width: 90%;
+}
+.css3_tutorial p{
+    font-size: 20px;
+}
+.note{
+    background-color: blueviolet;
+    height: 150px;
+    width: 100%;
+    color: white;
+}
+.note_width{
+    padding: 10px;
+}

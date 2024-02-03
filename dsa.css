@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.dsa_start{
+    background: url(./images.jpeg);
+    background-size: cover;
+
+}
+.under_dsa{
+    padding-left: 300px;
+    /* margin: 90%; */
+    height: 950px;
+    width: 90%;
+}
+.under_dsa p{
+    font-size: 20px;
+}

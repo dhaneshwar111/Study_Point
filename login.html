@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login and Sign Up Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: url(./signup.avif);
+      background-size: cover;
+    }
+
+    .container {
+      width: 300px;
+      margin: 0 auto;
+      margin-top: 150px;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    .form-group input[type="text"],
+    .form-group input[type="password"] {
+      width: 100%;
+      padding: 7px;
+      font-size: 14px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    .form-group button {
+      width: 100%;
+      padding: 7px;
+      font-size: 14px;
+      border-radius: 5px;
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+
+    .form-group button:hover {
+      background-color: #45a049;
+    }
+
+    .form-group .error-message {
+      color: #ff0000;
+      font-size: 12px;
+    }
+
+    .form-group .sign-up {
+      margin-top: 10px;
+      text-align: center;
+    }
+
+    .form-group .sign-up a {
+      color: #000;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Login</h2>
+    <form>
+      <div class="form-group">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <div class="form-group">
+        <button type="submit">Login</button>
+      </div>
+      <div class="form-group sign-up">
+        <span>Don't have an account?</span>
+        <a href="sign-up.html">Sign Up</a>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
